@@ -1,0 +1,145 @@
+.hero-section {
+  background: url('../../../public/Media/AboutUS_Page.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.hero-overlay {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: #fff !important;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.features-section {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features-carousel .custom-card {
+  padding: 20px;
+  text-align: center;
+}
+
+.mission-section {
+  padding: 50px 20px;
+  background: #f0f0f0;
+}
+
+.mission-text ul {
+  padding-left: 20px;
+}
+
+.mission-image img {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.brochure-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-button {
+  background: #007bff;
+  color: white;
+  border: none;
+}
+
+.features-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+.custom-card {
+  width: 80%; 
+  max-width: 60vw;
+  margin: 0 auto; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.about-container {
+  padding: 50px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.about-row {
+  margin-top: 20px;
+}
+
+.about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.custom-card {
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 25vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.about-title {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.about-text {
+  color: #555;
+  line-height: 1.6;
+}

@@ -1,0 +1,68 @@
+.masonry-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  background: #f7f7f7;
+  transition: filter 0.3s ease;
+}
+
+.masonry-gallery.blurred {
+  filter: blur(8px);
+}
+
+.media-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c5c3c3; 
+  aspect-ratio: 4 / 3; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.media-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-image,
+.gallery-video {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
+  display: block;
+  border-radius: 8px;
+}
+
+.fullscreen-modal .ant-modal-body {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.fullscreen-image,
+.fullscreen-video {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain; 
+  display: block;
+  border-radius: 8px;
+}
+
+.close-icon {
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+.main-holder{
+  min-height: 90vh;
+}

@@ -1,0 +1,136 @@
+*{
+  font-family: 'montserrart';
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100%; 
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  height: 50px; 
+  margin-right: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  flex: 1 1 100%; 
+}
+
+.parent-div{
+  max-width: 2500px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+.nav li {
+  margin: 10px 15px; 
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; 
+  font-size: 16px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1 1 100%; 
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.phone, .email {
+  text-decoration: none;
+  color: #007bff; 
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.ensis-logo {
+  margin-top: 10px; 
+  flex: 1 1 100%; 
+  text-align: center;
+}
+
+.ensis-logo img {
+  max-height: 50px; 
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px;
+  }
+
+  .logo img {
+    height: 40px; 
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .nav li {
+    margin: 10px 0; 
+  }
+
+  .contact {
+    align-items: center; 
+  }
+
+  .ensis-logo {
+    margin-top: 15px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    height: 35px;
+  }
+
+  .nav a {
+    font-size: 14px; 
+  }
+
+  .phone, .email {
+    font-size: 12px;
+  }
+
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .parent-div {
+    max-width: 100%; 
+  }
+}
