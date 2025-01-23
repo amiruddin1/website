@@ -15,12 +15,12 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 8rem !important;
   color: #fff !important;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #ddd;
 }
 
