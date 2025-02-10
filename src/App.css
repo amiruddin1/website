@@ -1,5 +1,16 @@
-*{
-  font-family: 'montserrart';
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/Fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'CustomFont', sans-serif !important;
+}
+
+.main-content {
+  margin-top: 70px; 
 }
 
 .header {
@@ -45,7 +56,6 @@
 .parent-div{
   max-width: 2500px; 
   margin: 0 auto; 
-  padding: 0 20px; 
 }
 
 .nav li {

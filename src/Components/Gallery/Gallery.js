@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Modal, Typography } from "antd";
 import "./Gallery.css";
 
+import { useTranslation } from "react-i18next";
 const { Title } = Typography;
 
 export default function Gallery() {
+  const { t } = useTranslation();
     const mediaItems = [
         "./Media/Gallery/1.jpg",
         "./Media/Gallery/2.jpg",
@@ -51,7 +53,7 @@ export default function Gallery() {
         <>
             <div className="main-holder">
                 <Title level={2} style={{ textAlign: "center", marginBottom: "20px" }}>
-                    Our Gallery
+                {t("GalleryTitle")}
                 </Title>
                 <div className={`masonry-gallery ${visible ? "blurred" : ""}`}>
                     {mediaItems.map((src, index) => (

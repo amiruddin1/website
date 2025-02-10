@@ -1,10 +1,11 @@
 import React from "react";
 import { Row, Col, Typography, Layout } from "antd";
 import "./OurClients.css";
+import { useTranslation } from "react-i18next";
 const { Title } = Typography;
 
 export default function OurClients() {
-
+const { t } = useTranslation();
     const images = [
         './Media/c1.jpg',
         './Media/c2.jpg',
@@ -19,7 +20,7 @@ export default function OurClients() {
             <div className="expertise-container_clients">
                 <div className="header-section_clients">
                     <Title level={2} className="main-title_clients">
-                        Our Clients
+                        {t("HomePage.OurClients")}
                     </Title>
 
                     <div className="tabs-section_clients">
@@ -37,7 +38,6 @@ export default function OurClients() {
                     </div>
                 </div>
             </div>
-            <hr />
         </>
     )
 }

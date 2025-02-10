@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import { Carousel } from 'antd';
+import { useTranslation } from "react-i18next";
 import './Carousel.css';
 
 export default function Slider() {
+  const { t } = useTranslation();
   const [activeSlide, setActiveSlide] = useState(0);
 
   const slides = [
-    { id: 1, file: '/Media/Slider1.mp4', caption: 'Specialists in FCU, AHU, and FAHU Solutions' },
-    { id: 2, file: '/Media/slider2.mp4', caption: 'Global Export Network with Timely Delivery' },
-    { id: 3, file: '/Media/slider3.mp4', caption: 'Commitment to Quality and Customer Satisfaction' },
-    { id: 4, file: '/Media/slider4.jpg', caption: 'Customized Products for HVAC Industry' },
+    { id: 1, file: '/Media/Slider1.mp4', caption: t("HomePage.Carousel.1") },
+    { id: 2, file: '/Media/slider2.mp4', caption: t("HomePage.Carousel.2") },
+    { id: 3, file: '/Media/slider3.mp4', caption: t("HomePage.Carousel.3") },
+    { id: 4, file: '/Media/slider4.jpg', caption: t("HomePage.Carousel.4") },
   ];
 
   const handleBeforeChange = (_, next) => {

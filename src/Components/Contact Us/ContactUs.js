@@ -1,51 +1,52 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Form, Input, Button, Row, Col, Typography, Card } from "antd";
 import "./ContactUs.css";
 
+import { useTranslation } from "react-i18next";
 const { Title, Text } = Typography;
+
 export default function ContactUs() {
+
+    const { t } = useTranslation();
     const onFinish = (values) => {
         console.log("Form values: ", values);
     };
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (<>
         <div className="hero-section_Contact">
-            <div className="hero-overlay_Contact">
+            <video
+                className="background-video"
+                autoPlay
+                loop
+                muted
+                playsInline
+            >
+                <source src="/Media/ContactUsVid.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <div className="content">
+                <h1>{t("ContactUsPage.mainTitle")}</h1>
             </div>
         </div>
         <div className="contact-container">
             <div className="contact-hero">
-                <Title className="contact-subtitle" level={2}>
-                    For questions or concerns, please contact us via telephone or simply complete the contact form. One of our knowledgeable representatives will respond in a timely manner.
+                <Title className="contact-subtitle">
+                    {t("ContactUsPage.desc")}
                 </Title>
             </div>
 
             <Row gutter={[32, 32]} className="contact-content">
                 <Col xs={24} md={10}>
                     <Card className="contact-info-card">
-                        <Title level={4} className="info-title">
-                            Our Offices
-                        </Title>
-                        <div className="info-section">
-                            <Text strong>Headquarter Address</Text>
-                            <Text>New India Colony, Nikol Road, Ahmedabad, India, 382350</Text>
-                        </div>
-                        <div className="info-section">
-                            <Text strong>Manufacturing Unit</Text>
-                            <Text>Plot NO 9 Patwari Colony, Near DAV School, Kushlipur Palwal, Haryana, India, 121102</Text>
-                        </div>
-                        <div className="info-section">
-                            <Text strong>Phone</Text>
-                            <Text>+91 9876543210</Text>
-                        </div>
-                        <div className="info-section">
-                            <Text strong>Email</Text>
-                            <Text>contact@hrvigroups.com</Text>
-                        </div>
+                        <img src="/Media/Addresses.jpg" />
                     </Card>
                     <Card className="map-card">
-                        <Title level={4} className="map-title">
-                            Headquarter Location
+                        <Title className="map-title">
+                            {t("ContactUsPage.mapTitle")}
                         </Title>
                         <iframe
                             className="map-iframe"
@@ -57,7 +58,7 @@ export default function ContactUs() {
                 <Col xs={24} md={14}>
                     <Card className="contact-form-card">
                         <Title level={4} className="form-title">
-                            Send Us a Message
+                            {t("ContactUsPage.form.title")}
                         </Title>
                         <Form
                             layout="vertical"
@@ -65,7 +66,7 @@ export default function ContactUs() {
                             requiredMark={false}
                         >
                             <Form.Item
-                                label="Name"
+                                label={t("ContactUsPage.form.field1")}
                                 name="name"
                                 rules={[
                                     { required: true, message: "Please enter your name" },
@@ -74,7 +75,7 @@ export default function ContactUs() {
                                 <Input placeholder="Enter your name" />
                             </Form.Item>
                             <Form.Item
-                                label="Mobile Number with Country Code"
+                                label={t("ContactUsPage.form.field2")}
                                 name="mobile"
                                 rules={[
                                     { required: true, message: "Please enter your mobile number" },
@@ -83,7 +84,7 @@ export default function ContactUs() {
                                 <Input placeholder="+91 1234567890" />
                             </Form.Item>
                             <Form.Item
-                                label="Email Address"
+                                label={t("ContactUsPage.form.field3")}
                                 name="email"
                                 rules={[
                                     {
@@ -96,7 +97,7 @@ export default function ContactUs() {
                                 <Input placeholder="example@example.com" />
                             </Form.Item>
                             <Form.Item
-                                label="Subject"
+                                label={t("ContactUsPage.form.field4")}
                                 name="subject"
                                 rules={[
                                     { required: true, message: "Please enter the subject" },
@@ -105,17 +106,17 @@ export default function ContactUs() {
                                 <Input placeholder="Enter the subject" />
                             </Form.Item>
                             <Form.Item
-                                label="Message"
+                                label={t("ContactUsPage.form.field5")}
                                 name="message"
                                 rules={[
                                     { required: true, message: "Please enter your message" },
                                 ]}
                             >
-                                <Input.TextArea rows={4} placeholder="Type your message" />
+                                <Input.TextArea rows={15} placeholder="Type your message" />
                             </Form.Item>
                             <Form.Item>
                                 <Button type="primary" htmlType="submit" className="send-button">
-                                    Send Message
+                                {t("ContactUsPage.form.buttonTitle")}
                                 </Button>
                             </Form.Item>
                         </Form>

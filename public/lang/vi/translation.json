@@ -1,0 +1,250 @@
+{
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "about": "Giới thiệu về chúng tôi",
+    "contact": "Liên hệ",
+    "gallery": "Thư viện",
+    "AboutUsPage": {
+        "mainTitle": "Giới thiệu về chúng tôi",
+        "heroSubtitle": "Nhà sản xuất giải pháp HVAC tiết kiệm năng lượng hàng đầu tại Ấn Độ",
+        "whyChooseUs": "Tại sao chọn chúng tôi?",
+        "visionaryBehindBrand": "Người sáng lập thương hiệu",
+        "featuresTitle": "Điều gì làm HRVI Groups trở thành nhà sản xuất HVAC tốt nhất?",
+        "qualities_translated": {
+            "reliable": {
+                "point1": "Hiệu suất vô song: đảm bảo hoạt động mượt mà ngay cả trong điều kiện khắc nghiệt.",
+                "point2": "Nhất quán trước: Giải pháp hiệu suất cao được thiết kế riêng cho mọi ngành công nghiệp chúng tôi phục vụ."
+            },
+            "highIndustryStandards": {
+                "point1": "Xuất sắc được chứng nhận: Tất cả sản phẩm AHU, FCU và FAHU tuân thủ chứng nhận quốc tế nghiêm ngặt.",
+                "point2": "Vượt qua mong đợi: Sản phẩm của chúng tôi vượt qua các tiêu chuẩn chất lượng để đảm bảo sự tin tưởng và hài lòng."
+            },
+            "innovativeMindset": {
+                "point1": "Đổi mới công nghệ: Chúng tôi thiết kế các hệ thống HVAC tiết kiệm năng lượng và thân thiện với môi trường.",
+                "point2": "Giải pháp bền vững: Sử dụng công nghệ tiên tiến để tạo ra các hệ thống điều hòa không khí thông minh hơn, xanh hơn."
+            },
+            "continuousImprovement": {
+                "point1": "Nâng cấp liên tục: Đánh giá thường xuyên các quy trình và thiết kế để đáp ứng nhu cầu thị trường.",
+                "point2": "Tăng trưởng dựa trên phản hồi: Phản hồi của khách hàng đảm bảo các giải pháp đỉnh cao và đồng nhất."
+            },
+            "expertise": {
+                "point1": "Đội ngũ chuyên gia: Nhiều năm kinh nghiệm tạo ra các giải pháp được thiết kế riêng cho các lĩnh vực y tế, khách sạn và thương mại.",
+                "point2": "Vận hành không lo lắng: Chuyên môn đảm bảo quá trình lắp đặt, vận hành và bảo trì suôn sẻ."
+            },
+            "flexible": {
+                "point1": "Giải pháp tùy chỉnh: Các hệ thống được thiết kế riêng cho các dự án đa dạng, từ bệnh viện đến trung tâm thương mại.",
+                "point2": "Tích hợp linh hoạt: Tương thích hoàn hảo với các yêu cầu dự án cụ thể."
+            },
+            "customerCentric": {
+                "point1": "Hỗ trợ cá nhân hóa: Từ tư vấn đến dịch vụ sau bán hàng, chúng tôi đồng hành cùng bạn mọi bước đường.",
+                "point2": "Dịch vụ hiệu quả: Cam kết cung cấp sự chú ý nhanh chóng và cá nhân hóa."
+            },
+            "energyEfficiency": {
+                "point1": "Hiệu suất tối ưu: Các hệ thống tiết kiệm năng lượng giảm chi phí và tác động đến môi trường.",
+                "point2": "Dấu chân tối thiểu: Công nghệ tiên tiến đảm bảo hiệu suất tối đa với mức năng lượng sử dụng tối thiểu."
+            },
+            "globalReach": {
+                "point1": "Mạng lưới toàn cầu: Mạng lưới xuất khẩu mạnh mẽ giúp cung cấp giải pháp HVAC đúng thời gian trên toàn cầu.",
+                "point2": "Đối tác đáng tin cậy: Giải pháp có thể mở rộng được thiết kế riêng cho các dự án quốc tế."
+            },
+            "sustainabilityFocus": {
+                "point1": "Thiết kế thân thiện với môi trường: Tập trung vào việc giảm thiểu dấu chân carbon thông qua các vật liệu bền vững.",
+                "point2": "Tương lai xanh hơn: Hệ thống HVAC phù hợp với các mục tiêu phát triển bền vững toàn cầu."
+            }
+        },
+        "qualities": {
+            "reliable": "Đáng tin cậy",
+            "highIndustryStandards": "Tiêu chuẩn ngành cao",
+            "innovativeMindset": "Tư duy sáng tạo",
+            "continuousImprovement": "Cải tiến liên tục",
+            "expertise": "Chuyên môn",
+            "flexible": "Linh hoạt",
+            "customerCentric": "Chăm sóc khách hàng là trọng tâm",
+            "energyEfficiency": "Hiệu quả năng lượng",
+            "globalReach": "Phạm vi toàn cầu",
+            "sustainabilityFocus": "Tập trung vào sự bền vững"
+        },
+        "cards": {
+            "ourStory": {
+                "title": "Câu chuyện của chúng tôi",
+                "desc": "Biến đổi không gian của bạn với các hệ thống HVAC tiên tiến được thiết kế để tối ưu hóa sự thoải mái, hiệu quả vượt trội và hiệu suất lâu dài. HRVI Groups là một cái tên đáng tin cậy trong ngành HVAC, cam kết cung cấp các giải pháp bền vững phù hợp với nhu cầu của bạn."
+            },
+            "ourVision": {
+                "title": "Tầm nhìn của chúng tôi",
+                "desc": "Các sản phẩm HVAC sáng tạo của chúng tôi được thiết kế để phục vụ cho nhiều ứng dụng khác nhau, bao gồm không gian dân cư, thương mại và công nghiệp. Chúng tôi hình dung một tương lai mà hiệu quả năng lượng và tính bền vững môi trường đi đôi với nhau."
+            },
+            "ourMission": {
+                "title": "Sứ mệnh của chúng tôi",
+                "desc": "Chúng tôi hướng tới việc cung cấp các giải pháp HVAC chất lượng cao, tiết kiệm năng lượng, đảm bảo sự thoải mái, độ tin cậy và tính bền vững môi trường. Sứ mệnh của chúng tôi là cung cấp các sản phẩm HVAC được thúc đẩy bởi đổi mới, với trọng tâm là sự hài lòng của khách hàng và sự xuất sắc trong hoạt động."
+            }
+        },
+        "Brand": {
+            "title": "Tầm nhìn đằng sau thương hiệu",
+            "owner1": {
+                "name": "Ông Harsh Sharma",
+                "subName": "Đồng sáng lập & Đối tác quản lý",
+                "desc": "Harsh Sharma là động lực thúc đẩy hoạt động tinh gọn và các giải pháp tập trung vào khách hàng của chúng tôi. Với con mắt tinh tường về chi tiết và cam kết xuất sắc, ông đảm bảo mọi dự án được thực hiện chính xác. Sự lãnh đạo của Harsh đảm bảo rằng khách hàng có trải nghiệm quy trình liền mạch và đạt được mục tiêu thương mại toàn cầu của họ."
+            },
+            "owner2": {
+                "name": "Ông Vivek Patil",
+                "subName": "Đồng sáng lập & Đối tác vận hành",
+                "desc": "Vivek Patil chuyên tạo ra các chiến lược tác động và thúc đẩy quan hệ đối tác mạnh mẽ để hỗ trợ mở rộng kinh doanh quốc tế. Với chuyên môn về động lực thương mại và hiểu biết thị trường, Vivek thúc đẩy các phương pháp tiếp cận sáng tạo để mở ra cơ hội mới cho khách hàng trên toàn cầu."
+            }
+        },
+        "whySection": {
+            "title": "Tại sao chọn chúng tôi?",
+            "point1": {
+                "title": "Giải pháp HVAC chất lượng cao",
+                "subpoint1": "Sản phẩm AHU, FCU, FAHU cao cấp và các sản phẩm HVAC khác",
+                "subpoint2": "Kiểm soát chất lượng nghiêm ngặt để đảm bảo hiệu suất hàng đầu"
+            },
+            "point2": {
+                "title": "Giải pháp trọn gói",
+                "subpoint1": "Nguồn cung ứng, đảm bảo chất lượng, hậu cần và hỗ trợ sau bán hàng",
+                "subpoint2": "Phối hợp liền mạch để tránh chậm trễ và gián đoạn"
+            },
+            "point3": {
+                "title": "Mạng lưới toàn cầu & chuỗi cung ứng mạnh mẽ",
+                "subpoint1": "Hợp tác sản xuất & hậu cần đáng tin cậy",
+                "subpoint2": "Đảm bảo giao hàng đúng hạn & giá cả cạnh tranh"
+            },
+            "point4": {
+                "title": "Cách tiếp cận lấy khách hàng làm trung tâm",
+                "subpoint1": "Tư vấn cá nhân hóa & giao tiếp minh bạch",
+                "subpoint2": "Hỗ trợ sau bán hàng đáng tin cậy để thành công lâu dài"
+            },
+            "point5": {
+                "title": "Không chỉ là giao hàng",
+                "subpoint1": "Chúng tôi không chỉ cung cấp sản phẩm—mà còn cung cấp giải pháp HVAC hoàn chỉnh",
+                "subpoint2": "Hỗ trợ kỹ thuật bổ sung và dịch vụ hỗ trợ để đảm bảo vận hành trơn tru"
+            }
+        }
+    },
+    "ContactUsPage": {
+        "mainTitle": "Liên Hệ Với Chúng Tôi",
+        "desc": "Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào, vui lòng liên hệ với chúng tôi qua điện thoại hoặc điền vào biểu mẫu liên hệ. Một trong những đại diện giàu kinh nghiệm của chúng tôi sẽ phản hồi bạn trong thời gian sớm nhất.",
+        "mapTitle": "Vị Trí Trụ Sở Chính",
+        "form": {
+            "title": "Gửi Tin Nhắn Cho Chúng Tôi",
+            "field1": "Họ và Tên",
+            "field2": "Số điện thoại di động kèm mã quốc gia",
+            "field3": "Địa chỉ Email",
+            "field4": "Chủ đề",
+            "field5": "Tin nhắn",
+            "buttonTitle": "Gửi Tin Nhắn"
+        }
+    },
+    "Footer": {
+        "para": "Tại Tập đoàn HRVI, chúng tôi mang đến chuyên môn vượt trội trong ngành HVAC, chuyên sản xuất và xuất khẩu các hệ thống điều hòa không khí hiệu suất cao. Đội ngũ của chúng tôi kết hợp kiến thức kỹ thuật, kỹ thuật sáng tạo và nhiều năm kinh nghiệm để cung cấp các giải pháp vượt mong đợi của khách hàng.",
+        "ql": {
+            "title": "Liên Kết Nhanh",
+            "point1": "Thiết Kế Nội Thất Bán Lẻ",
+            "point2": "Thiết Kế Nội Thất Doanh Nghiệp",
+            "point3": "Thiết Kế Nội Thất Nhà Hàng",
+            "point4": "Cửa Hàng Trong Cửa Hàng",
+            "point5": "Trưng Bày Bán Lẻ & Tiếp Thị",
+            "point6": "Ki-ốt Bán Lẻ",
+            "point7": "Triển Lãm & Sự Kiện",
+            "point8": "Công Ty Thiết Kế Nội Thất"
+        },
+        "more": "Thông Tin Thêm",
+        "contact": {
+            "title": "Liên Hệ",
+            "phone_title": "Số Điện Thoại",
+            "number1": "+91-9654900525",
+            "number2": "+91-9876543210",
+            "email_title": "Địa Chỉ Email",
+            "id": "info@designhouse.co.in",
+            "locationTitle": "Địa Điểm",
+            "location": "12/29, Site-II, Đường Loni, Khu Công Nghiệp, Mohan Nagar, Ghaziabad, Uttar Pradesh, Mã Bưu Chính 201007, Ấn Độ"
+        }
+    },
+    "GalleryTitle": "Thư Viện Ảnh Của Chúng Tôi",
+    "ProductPage": {
+        "title": "Sản Phẩm & Dịch Vụ Liên Doanh Của Chúng Tôi",
+        "desc": "Tại InfiniTrade Exports, chúng tôi không chỉ kết nối bạn với các sản phẩm HVAC đẳng cấp thế giới mà còn giúp bạn tìm kiếm những người mua đáng tin cậy cho doanh nghiệp của mình. Với mạng lưới rộng lớn và chuyên môn trong thương mại quốc tế, chúng tôi hỗ trợ các nhà sản xuất và nhà cung cấp mở rộng thị trường với các sản phẩm chủ chốt sau:",
+        "whyChooseTitle": "Tại sao chúng tôi chọn những sản phẩm này?",
+        "point1": "Nhu Cầu Toàn Cầu:",
+        "detail1": " Ngày càng được ứng dụng rộng rãi trong các dự án dân dụng, thương mại và công nghiệp.",
+        "point2": "Tập Trung Vào Hiệu Suất Năng Lượng:",
+        "detail2": " Hoàn toàn phù hợp với nhu cầu của khách hàng quan tâm đến môi trường.",
+        "point3": "Tính Đa Dạng:",
+        "detail3": " Có thể tùy chỉnh để đáp ứng các tiêu chuẩn thị trường và ứng dụng khác nhau.",
+        "point4": "Nhận Thức Về Sức Khỏe & Chất Lượng Không Khí:",
+        "detail4": " Thúc đẩy nhu cầu về các giải pháp xử lý không khí tiên tiến.",
+        "point5": "Cơ Hội Thị Trường Có Thể Mở Rộng:",
+        "detail5": " Phù hợp với các dự án có quy mô khác nhau, mang lại cơ hội vô hạn.",
+        "product1": "Dàn Lạnh Quạt (FCU)",
+        "prod1_desc": "Linh kiện nhỏ gọn và đa năng, được sử dụng rộng rãi trong hệ thống HVAC để làm mát hoặc sưởi ấm từng không gian riêng lẻ.",
+        "product2": "Bộ Xử Lý Không Khí (AHU)",
+        "prod2_desc": "Thành phần quan trọng trong hệ thống HVAC trung tâm, cung cấp kiểm soát khí hậu và lọc không khí cho các không gian lớn.",
+        "product3": "Bộ Xử Lý Không Khí Tươi (FAHU)",
+        "prod3_desc": "Thiết kế để cải thiện chất lượng không khí trong nhà bằng cách đưa không khí ngoài trời tươi và đã được lọc vào bên trong."
+    },
+    "HomePage": {
+        "AboutCompany": {
+            "mainTitle": "GIỚI THIỆU VỀ CÔNG TY",
+            "subTitle": "Chúng tôi làm gì?",
+            "mainDesc": "Tại Tập đoàn HRVI, chúng tôi chuyên cung cấp các giải pháp HVAC đẳng cấp thế giới, tập trung vào Dàn Lạnh Quạt (FCU), Bộ Xử Lý Không Khí (AHU) và Bộ Xử Lý Không Khí Tươi (FAHU). Dịch vụ toàn diện của chúng tôi phục vụ nhiều ngành công nghiệp trên toàn cầu, cung cấp hệ thống hiệu suất cao, tiết kiệm năng lượng, đảm bảo sự thoải mái và tính bền vững.",
+            "serviceTitle": "Dịch vụ cốt lõi của chúng tôi bao gồm:",
+            "service1": "Sản xuất & Xuất khẩu: Chúng tôi thiết kế và xuất khẩu các FCU, AHU và FAHU chất lượng cao để đáp ứng nhu cầu đa dạng của khách hàng thương mại, công nghiệp và dân cư trên toàn thế giới.",
+            "service2": "Giải pháp tùy chỉnh: Chúng tôi tạo ra các hệ thống phù hợp với yêu cầu cụ thể của bạn, tối ưu hóa hiệu suất và hiệu quả năng lượng cho từng dự án.",
+            "service3": "Tư vấn & Thiết kế Dự án: Chúng tôi cung cấp tư vấn chuyên môn để giúp bạn chọn hệ thống HVAC tốt nhất, sau đó thiết kế chi tiết hệ thống để đảm bảo hiệu suất tối đa.",
+            "secondTitle": "Nhà sản xuất hàng đầu của Ấn Độ về giải pháp HVAC tiết kiệm năng lượng",
+            "feature1": "Biến đổi không gian của bạn với các hệ thống HVAC tiên tiến, mang lại sự thoải mái tối ưu, hiệu suất vượt trội và độ bền lâu dài.",
+            "feature2": "Tập đoàn HRVI chuyên về FCU, AHU và FAHU được thiết kế để đáp ứng nhu cầu đa dạng của thị trường toàn cầu.",
+            "feature3": "Với trụ sở tại Ấn Độ, chúng tôi được công nhận là một trong những nhà sản xuất và cung cấp giải pháp điều hòa không khí chất lượng cao hàng đầu thế giới.",
+            "feature4": "Các sản phẩm HVAC sáng tạo của chúng tôi phục vụ ứng dụng trong dân cư, thương mại và công nghiệp, đồng thời nâng cao hiệu quả năng lượng và tính bền vững môi trường.",
+            "feature5": "Chúng tôi hợp tác với các kiến trúc sư, kỹ sư và quản lý dự án để cung cấp các giải pháp HVAC tùy chỉnh, đảm bảo hiệu suất vượt trội và độ tin cậy cao.",
+            "feature6": "Tập đoàn HRVI là đối tác của bạn trong việc tạo ra môi trường thoải mái, tiết kiệm năng lượng và bền vững trên toàn cầu!",
+            "btn1": "Khám phá thêm",
+            "btn2": "Tải xuống tài liệu"
+        },
+        "Carousel": {
+            "1": "Chuyên gia về giải pháp FCU, AHU và FAHU",
+            "2": "Mạng lưới xuất khẩu toàn cầu với giao hàng đúng hạn",
+            "3": "Cam kết chất lượng và sự hài lòng của khách hàng",
+            "4": "Sản phẩm tùy chỉnh cho ngành HVAC"
+        },
+        "OurClients": "Khách hàng của chúng tôi",
+        "Expertise": {
+            "title": "Chuyên môn trong ngành HVAC",
+            "desc": "Tại HRVI Group Of Company, chúng tôi có chuyên môn vượt trội trong ngành HVAC, chuyên sản xuất và xuất khẩu các hệ thống điều hòa không khí hiệu suất cao. Đội ngũ của chúng tôi kết hợp kiến thức kỹ thuật, kỹ thuật đổi mới và nhiều năm kinh nghiệm để cung cấp các giải pháp vượt mong đợi của khách hàng.",
+            "prodTitle": "Sản phẩm của chúng tôi được sử dụng trong",
+            "prod1": "Trung tâm công nghệ",
+            "prod2": "Tòa nhà thương mại",
+            "prod3": "Hội trường",
+            "prod4": "Rạp chiếu phim / Trung tâm mua sắm / Trung tâm thương mại",
+            "prod5": "Học viện giáo dục",
+            "prod6": "Bệnh viện / Nhà máy dược phẩm"
+        },
+        "Services": {
+            "title": "Dịch Vụ Chính Của Chúng Tôi",
+            "slide1": {
+                "title": "Dịch Vụ Lắp Đặt & Lắp Ráp Chuyên Nghiệp",
+                "desc": "Chúng tôi cung cấp dịch vụ lắp đặt và lắp ráp chuyên nghiệp để đảm bảo hệ thống của bạn được thiết lập chính xác và hiệu quả:",
+                "point1": "Lắp đặt liền mạch: Đội ngũ của chúng tôi hỗ trợ từng bước để đảm bảo hệ thống được thiết lập chính xác và ổn định.",
+                "point2": "Hỗ trợ kỹ thuật: Các chuyên gia có kinh nghiệm sẵn sàng giải quyết các vấn đề tại chỗ và cung cấp hướng dẫn trong quá trình lắp đặt.",
+                "point3": "Tối ưu hóa: Chúng tôi đảm bảo các thiết bị được lắp đặt hoạt động với hiệu suất tối đa trong thời gian dài."
+            },
+            "slide2": {
+                "title": "Dịch Vụ Hậu Mãi & Giải Pháp Lắp Đặt",
+                "desc": "Tại HRVI Group Of Company, chúng tôi tin rằng cam kết của mình không chỉ dừng lại ở việc giao hàng. Dịch vụ hậu mãi và lắp đặt toàn diện của chúng tôi đảm bảo hệ thống của bạn luôn hoạt động tốt, mang lại sự thoải mái và hiệu quả trong nhiều năm tới."
+            },
+            "slide3": {
+                "title": "Hỗ Trợ Hậu Mãi Toàn Diện",
+                "point1": "Nâng cấp & Sửa chữa hệ thống: Các giải pháp chuyên nghiệp để nâng cấp hoặc sửa chữa hệ thống, kéo dài tuổi thọ và cải thiện hiệu suất.",
+                "point2": "Cung cấp linh kiện thay thế: Dễ dàng tiếp cận các bộ phận thay thế chính hãng để bảo trì và sửa chữa, giảm thiểu thời gian ngừng hoạt động của hệ thống.",
+                "point3": "Kế hoạch bảo trì định kỳ: Dịch vụ bảo trì theo lịch trình để đảm bảo hệ thống của bạn luôn tiết kiệm năng lượng và hoạt động ổn định."
+            },
+            "slide4": {
+                "title": "Tại Sao Dịch Vụ Hậu Mãi Của Chúng Tôi Quan Trọng",
+                "point1": "Độ tin cậy: Hỗ trợ đáng tin cậy giúp hệ thống của bạn vận hành trơn tru trong nhiều năm.",
+                "point2": "Hiệu suất: Bảo trì định kỳ giúp giảm sự cố và duy trì hiệu suất tiết kiệm năng lượng.",
+                "point3": "Chăm sóc chuyên nghiệp: Đội ngũ giàu kinh nghiệm của chúng tôi cung cấp các giải pháp nhanh chóng, hiệu quả và chuyên nghiệp.",
+                "point4": "Yên tâm: Luôn có sự hỗ trợ từ chuyên gia, giúp bạn hoàn toàn tự tin vào khoản đầu tư của mình."
+            }
+        },
+        "FeedbackTitle": "Lời Nhận Xét Của Khách Hàng"
+    }
+}

@@ -1,0 +1,250 @@
+{
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "gallery": "Gallery",
+    "AboutUsPage": {
+        "mainTitle": "About Us",
+        "heroSubtitle": "India's Leading Manufacturer of Energy-Efficient HVAC Solutions",
+        "whyChooseUs": "Why Choose Us?",
+        "visionaryBehindBrand": "Visionary Behind the Brand",
+        "featuresTitle": "What Makes HRVI Groups the Best HVAC Manufacturer?",
+        "qualities_translated": {
+            "reliable": {
+                "point1": "Unmatched performance: ensures seamless operation, even in demanding conditions.",
+                "point2": "Consistency first: High-performing solutions tailored for every industry we serve."
+            },
+            "highIndustryStandards": {
+                "point1": "Certified excellence: All AHU, FCU, and FAHU products adhere to strict international certifications.",
+                "point2": "Exceeding expectations: Our products surpass quality benchmarks to ensure trust and satisfaction."
+            },
+            "innovativeMindset": {
+                "point1": "Tech-driven innovation: We design energy-efficient, environmentally friendly HVAC systems.",
+                "point2": "Sustainable solutions: Leveraging advanced technology for smarter, greener air conditioning."
+            },
+            "continuousImprovement": {
+                "point1": "Constant upgrades: Regular evaluations of processes and designs to meet market demands.",
+                "point2": "Feedback-driven growth: Customer feedback ensures top-tier, aligned solutions."
+            },
+            "expertise": {
+                "point1": "Specialized team: Years of experience creating tailored solutions for healthcare, hospitality, and commercial sectors.",
+                "point2": "Worry-free operation: Expertise ensures smooth installation, operation, and maintenance."
+            },
+            "flexible": {
+                "point1": "Customized solutions: Tailored systems for diverse projects, from hospitals to shopping malls.",
+                "point2": "Adaptive integration: Seamless compatibility with specific project requirements."
+            },
+            "customerCentric": {
+                "point1": "Personalized support: From consultation to after-sales service, we are with you every step of the way.",
+                "point2": "Efficient service: Dedicated to delivering quick, personalized attention."
+            },
+            "energyEfficiency": {
+                "point1": "Optimized performance: Energy-efficient systems reduce costs and environmental impact.",
+                "point2": "Minimal footprint: Advanced technology ensures maximum performance with minimal energy usage."
+            },
+            "globalReach": {
+                "point1": "Worldwide network: A strong export network for timely HVAC solutions delivery worldwide.",
+                "point2": "Trusted partner: Scalable solutions tailored for international projects."
+            },
+            "sustainabilityFocus": {
+                "point1": "Eco-friendly design: Emphasis on minimizing carbon footprint through sustainable materials.",
+                "point2": "Greener future: HVAC systems aligned with global sustainability goals."
+            }
+        },
+        "qualities": {
+            "reliable": "Reliable",
+            "highIndustryStandards": "High Industry Standards",
+            "innovativeMindset": "Innovative Mindset",
+            "continuousImprovement": "Continuous Improvement",
+            "expertise": "Expertise",
+            "flexible": "Flexible",
+            "customerCentric": "Customer-Centric Approach",
+            "energyEfficiency": "Energy Efficiency",
+            "globalReach": "Global Reach",
+            "sustainabilityFocus": "Sustainability Focus"
+        },
+        "cards": {
+            "ourStory": {
+                "title": "Our Story",
+                "desc": "Transform your spaces with cutting-edge HVAC systems designed for optimal comfort, superior efficiency, and timeless performance. HRVI Groups is a trusted name in the HVAC industry, committed to delivering sustainable solutions tailored to your needs."
+            },
+            "ourVision": {
+                "title": "Our Vision",
+                "desc": "Our innovative HVAC products are designed to cater to a wide range of applications, including residential, commercial, and industrial spaces. We envision a future where energy efficiency and environmental sustainability go hand-in-hand."
+            },
+            "ourMission": {
+                "title": "Our Mission",
+                "desc": "We aim to provide high-quality, energy-efficient HVAC solutions, ensuring comfort, reliability, and environmental sustainability. Our mission is to deliver innovation-driven HVAC products with a focus on customer satisfaction and operational excellence."
+            }
+        },
+        "Brand": {
+            "title": "Visionary Behind the Brand",
+            "owner1": {
+                "name": "Mr. Harsh Sharma",
+                "subName": "Co-founder & Managing Partner",
+                "desc": "Harsh Sharma is the driving force behind our streamlined operations and customer-focused solutions. With his keen eye for detail and commitment to excellence, he ensures every project is executed with precision. Harsh's leadership guarantees that clients experience seamless processes and achieve their global trade goals."
+            },
+            "owner2": {
+                "name": "Mr. Vivek Patil",
+                "subName": "Co-founder & Operations Partner",
+                "desc": "Vivek Patil specializes in creating impactful strategies and fostering strong partnerships to support international business expansion. With his expertise in trade dynamics and market insights, Vivek drives innovative approaches that open new opportunities for clients across borders."
+            }
+        },
+        "whySection": {
+            "title": "Why Choose Us?",
+            "point1": {
+                "title": "High-Quality HVAC Solutions",
+                "subpoint1": "Premium AHU, FCU, FAHU, and other HVAC products",
+                "subpoint2": "Strict quality control to ensure top performance"
+            },
+            "point2": {
+                "title": "End-to-End Solutions",
+                "subpoint1": "Sourcing, quality assurance, logistics, and after-sales support",
+                "subpoint2": "Seamless coordination to avoid delays and disruptions"
+            },
+            "point3": {
+                "title": "Global Network & Strong Supply Chain",
+                "subpoint1": "Trusted manufacturing & logistics partnerships",
+                "subpoint2": "Guaranteed on-time delivery & competitive pricing"
+            },
+            "point4": {
+                "title": "Customer-Centric Approach",
+                "subpoint1": "Personalized consultation & transparent communication",
+                "subpoint2": "Reliable after-sales support for long-term success"
+            },
+            "point5": {
+                "title": "Beyond Just Delivery",
+                "subpoint1": "We don’t just supply products—we offer complete HVAC solutions",
+                "subpoint2": "Additional technical support and service assistance for smooth operations"
+            }
+        }
+    },
+    "ContactUsPage": {
+        "mainTitle": "Contact Us",
+        "desc": "For questions or concerns, please contact us via telephone or simply complete the contact form. One of our knowledgeable representatives will respond in a timely manner.",
+        "mapTitle": "Headquarter Location",
+        "form": {
+            "title": "Send Us a Message",
+            "field1": "Name",
+            "field2": "Mobile Number with Country Code",
+            "field3": "Email Address",
+            "field4": "Subject",
+            "field5": "Message",
+            "buttonTitle": "Send Message"
+        }
+    },
+    "Footer": {
+        "para": "At HRVI Group Of Company, we bring unparalleled expertise in the HVAC industry, specializing in the manufacturing and export of high-performance air conditioning systems. Our team combines technical knowledge, innovative engineering, and years of experience to deliver solutions that exceed client expectations.",
+        "ql": {
+            "title": "Quick Links",
+            "point1": "Retail Interiors",
+            "point2": "Corporate Interiors",
+            "point3": "Restaurant Interior",
+            "point4": "Shop In Shops",
+            "point5": "Retail Display Merchandising",
+            "point6": "Retail Kiosk",
+            "point7": "Exhibition & Events",
+            "point8": "Interior Design Company"
+        },
+        "more":"More Info.",
+        "contact": {
+            "title": "Contact",
+            "phone_title": "Phone Number",
+            "number1": "+91-9654900525",
+            "number2": "+91-9876543210",
+            "email_title": "Email Address",
+            "id": "info@designhouse.co.in",
+            "locationTitle": "Location",
+            "location": "12/29, Site-II, Loni Road, Industrial Area, Mohan Nagar, Ghaziabad, Uttar Pradesh, Pin No. 201007, India"
+        }
+    },
+    "GalleryTitle":"Our Gallery",
+    "ProductPage":{
+        "title":"Our Products & Joint Venture Services",
+        "desc":"At InfiniTrade Exports, we don’t just connect you with world-class HVAC products; we help you find reliable buyers for your business. With our extensive network and expertise in international trade, we assist manufacturers and suppliers in expanding their market reach for the following key products:",
+        "whyChooseTitle":"Why we choose these products?",
+        "point1": "Global Demand:",
+        "detail1":" Increasing adoption in residential, commercial, and industrial projects.",
+        "point2": "Energy Efficiency Focus:",
+        "detail2":" Perfectly aligned with the needs of eco-conscious buyers.",
+        "point3": "Versatility:",
+        "detail3":" Customizable to meet various market standards and applications.",
+        "point4": "Health & Air Quality Awareness:",
+        "detail4":" Boosting demand for advanced air handling solutions.",
+        "point5": "Scalable Market Opportunity:",
+        "detail5":" Catering to projects of all sizes, offering endless opportunities.",
+        "product1":"Fan Coil Unit (FCU)",
+        "prod1_desc":"Compact and versatile components widely used in HVAC systems for cooling or heating individual spaces.",
+        "product2":"AHU (Air Handling Unit)",
+        "prod2_desc":"Crucial for centralized HVAC systems, providing climate control and air purification for large spaces.",
+        "product3":"Fresh Air Handling Unit (FAHU)",
+        "prod3_desc":"Designed to improve indoor air quality by bringing in fresh, filtered outdoor air."
+    },
+    "HomePage":{
+        "AboutCompany":{
+            "mainTitle":"ABOUT COMPANY",
+            "subTitle":"What We Do?",
+            "mainDesc":"At HRVI Group Of Company, we specialize in providing world-class solutions for the HVAC industry, focusing on Fan Coil Units (FCU), Air Handling Units (AHU), and Fresh Air Handling Units (FAHU). Our comprehensive services cater to diverse industries across the globe, delivering high-performance, energy-efficient systems that ensure comfort and sustainability.",
+            "serviceTitle":"Our core services include:",
+            "service1":"Manufacturing & Exporting: We design and export top-quality FCUs, AHUs, and FAHUs to meet the diverse needs of commercial, industrial, and residential clients worldwide.",
+            "service2":"Customized Solutions: We create tailored systems that fit your specific requirements, optimizing performance and energy efficiency for every project.",
+            "service3":"Project Consultation & Design: We provide expert consultation to help you select the best HVAC systems for your project, followed by detailed system design to ensure maximum efficiency.",
+            "secondTitle":"India's Leading Manufacturer of Energy-Efficient HVAC Solutions",
+            "feature1":"Transform your spaces with cutting-edge HVAC systems designed for optimal comfort, superior efficiency, and timeless performance.",
+            "feature2":"HRVI Groups specializes in FCUs, AHUs, and FAHUs tailored to meet the diverse needs of global markets.",
+            "feature3":"With our headquarters in India, we are recognized as one of the leading manufacturers and suppliers of high-quality air conditioning solutions globally.",
+            "feature4":"Our innovative HVAC products cater to residential, commercial, and industrial applications while enhancing energy efficiency and environmental sustainability.",
+            "feature5":"We collaborate with architects, engineers, and project managers to provide customized HVAC solutions that ensure exceptional performance and reliability.",
+            "feature6":"HRVI Groups is your partner in creating comfortable, energy-efficient, and sustainable environments across the globe!",
+            "btn1":"Explore More",
+            "btn2":"Download Brochure"
+        },
+        "Carousel":{
+            "1":"Specialists in FCU, AHU, and FAHU Solutions",
+            "2":"Global Export Network with Timely Delivery",
+            "3":"Commitment to Quality and Customer Satisfaction",
+            "4":"Customized Products for HVAC Industry"
+        },
+        "OurClients":"Our Clients",
+        "Expertise":{
+            "title":"Expertise in HVAC Industry",
+            "desc":"At HRVI Group Of Company, we bring unparalleled expertise in the HVAC industry, specializing in the manufacturing and export of high-performance air conditioning systems. Our team combines technical knowledge, innovative engineering, and years of experience to deliver solutions that exceed client expectations.",
+            "prodTitle":"Our Products Are Used In",
+            "prod1":"Technology Center",
+            "prod2":"Commercial Buildings",
+            "prod3":"Auditorium Halls",
+            "prod4":"Multiplexes / Malls / Shopping Centers",
+            "prod5":"Educational Institutes",
+            "prod6":"Hospitals / Pharmaceutical Plants"
+        },
+        "Services":{
+            "title":"Our Major Services",
+            "slide1":{
+                "title":"Professional Fitting & Installation Services",
+                "desc":"We offer expert installation and fitting services to ensure your systems are set up correctly and efficiently:",
+                "point1":"Seamless Installation: Our team provides step-by-step assistance to ensure smooth and precise system setup.",
+                "point2":"Technical Support: Experienced professionals are available to address on-site challenges and provide guidance during installation.",
+                "point3":"Optimization: We ensure the installed units operate at peak efficiency for long-term performance."
+            },
+            "slide2":{
+                "title":"After-Sales Services & Fitting Solutions",
+                "desc":"At HRVI Group Of Company we believe that our commitment to you goes far beyond product delivery. Our comprehensive after-sales support and fitting services ensure that your systems perform optimally, delivering comfort and efficiency for years to come."
+            },
+            "slide3":{
+                "title":"Comprehensive After-Sales Support",
+                "point1":"System Upgrades & Repairs: Professional solutions for upgrading or repairing systems to enhance their longevity and performance.",
+                "point2":"Spare Parts Availability: Quick access to genuine spare parts for replacements and repairs, minimizing system downtime.",
+                "point3":"Regular Maintenance Plans: Scheduled maintenance services to ensure your systems remain energy-efficient and operational."
+            },
+            "slide4":{
+                "title":"Why Our After-Sales Services Matter",
+                "point1":"Reliability: Dependable support ensures that your systems operate smoothly for years.",
+                "point2":"Efficiency: Regular servicing minimizes breakdowns and maintains energy-efficient performance.",
+                "point3":"Expert Care: Our experienced team provides fast, effective, and professional solutions.",
+                "point4":"Peace of Mind: Knowing that expert support is always a call away gives you complete confidence in your investment."
+            }
+        },
+        "FeedbackTitle":"Words Of Our Clients"
+    }
+}

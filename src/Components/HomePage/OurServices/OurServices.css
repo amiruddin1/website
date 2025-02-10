@@ -71,7 +71,7 @@
     margin-bottom: 0.5rem;
   }
   .header-section_services {
-    background-color: #f5f5f5; 
+    background-color: #ecebeb; 
     padding: 1rem 2rem;
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
@@ -94,7 +94,7 @@
     }
 
     .expertise-container_services {
-      padding: 50px 2px;
+      padding: 20px;
     }  
 
     .tab-description {

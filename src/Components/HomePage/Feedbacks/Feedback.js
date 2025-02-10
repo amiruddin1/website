@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Row, Col, Rate, Typography } from 'antd';
+import { useTranslation } from "react-i18next";
 import './Feedbacks.css';
 const { Title } = Typography;
 const testimonials = [
@@ -36,12 +37,13 @@ const testimonials = [
 ];
 
 export default function Feedback() {
+  const { t } = useTranslation();
   return (
     <>
       <div className="expertise-container_feedback">
         <div className="header-section_feedback">
           <Title level={2} className="main-title_feedback">
-            Words Of Our Clients
+            {t("HomePage.FeedbackTitle")}
           </Title>
 
           <div className="tabs-section_feedback">

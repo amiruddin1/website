@@ -1,89 +1,78 @@
 import React, { useState } from "react";
 import { Tabs, Row, Col, List, Typography } from "antd";
 import "./OurServices.css";
+import { useTranslation } from "react-i18next";
 const { Title } = Typography;
 
 const { TabPane } = Tabs;
 
 export default function Services() {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState("1");
 
   const tabContent = [
     {
       key: "1",
-      title: "Professional Fitting & Installation Services",
+      title: t("HomePage.Services.slide1.title"),
       description:
-        "We offer expert installation and fitting services to ensure your systems are set up correctly and efficiently:",
-      image: "/Images/slide2.jfif",
+        t("HomePage.Services.slide1.desc"),
+      image: "/Media/cs1.jfif",
       features: [
         <>
-          <strong>Seamless Installation:</strong> Our team provides step-by-step
-          assistance to ensure smooth and precise system setup.
+          {t("HomePage.Services.slide1.point1")}
         </>,
         <>
-          <strong>Technical Support:</strong> Experienced professionals are
-          available to address on-site challenges and provide guidance during
-          installation.
+          {t("HomePage.Services.slide1.point2")}
         </>,
         <>
-          <strong>Optimization:</strong> We ensure the installed units operate
-          at peak efficiency for long-term performance.
+          {t("HomePage.Services.slide1.point3")}
         </>,
       ],
     },
     {
       key: "2",
-      title: "After-Sales Services & Fitting Solutions",
+      title: t("HomePage.Services.slide2.title"),
       description:
-        "At HRVI Group Of Company we believe that our commitment to you goes far beyond product delivery. Our comprehensive after-sales support and fitting services ensure that your systems perform optimally, delivering comfort and efficiency for years to come.",
-      image: "/Images/slide1.jfif",
+        t("HomePage.Services.slide2.desc"),
+      image: "/Media/CS3.jpg",
       features: [
 
       ],
     },
     {
       key: "3",
-      title: "Comprehensive After-Sales Support",
+      title: t("HomePage.Services.slide3.title"),
       description: "",
-      image: "/Images/slide3.jfif",
+      image: "/Media/CS2.jpg",
       features: [
         <>
-          <strong>System Upgrades & Repairs:</strong> Professional solutions for
-          upgrading or repairing systems to enhance their longevity and
-          performance.
+          {t("HomePage.Services.slide3.point1")}
         </>,
         <>
-          <strong>Spare Parts Availability:</strong> Quick access to genuine
-          spare parts for replacements and repairs, minimizing system downtime.
+          {t("HomePage.Services.slide3.point2")}
         </>,
         <>
-          <strong>"Regular Maintenance Plans:</strong> Scheduled maintenance
-          services to ensure your systems remain energy-efficient and
-          operational.
+          {t("HomePage.Services.slide3.point3")}
         </>,
       ],
     },
     {
       key: "4",
-      title: "Why Our After-Sales Services Matter",
+      title: t("HomePage.Services.slide4.title"),
       description: "",
-      image: "/Images/slide4.jfif",
+      image: "/Media/Product3.jpg",
       features: [
         <>
-          <strong>Reliability:</strong> Dependable support ensures that your systems
-          operate smoothly for years.
+          {t("HomePage.Services.slide4.point1")}
         </>,
         <>
-          <strong>Efficiency:</strong> Regular servicing minimizes breakdowns and
-          maintains energy-efficient performance.
+          {t("HomePage.Services.slide4.point2")}
         </>,
         <>
-          <strong>Expert Care:</strong> Our experienced team provides fast, effective,
-          and professional solutions.
+          {t("HomePage.Services.slide4.point3")}
         </>,
         <>
-          <strong>Peace of Mind:</strong> Knowing that expert support is always a call
-          away gives you complete confidence in your investment.
+          {t("HomePage.Services.slide4.point4")}
         </>,
       ],
     },
@@ -94,7 +83,7 @@ export default function Services() {
       <div className="expertise-container_services">
         <div className="header-section_services">
           <Title className="main-title_services">
-            Our Major Services
+            {t("HomePage.Services.title")}
           </Title>
 
           <div className="tabs-section_services">
@@ -114,7 +103,7 @@ export default function Services() {
                       </Col>
                       <Col xs={24} md={14}>
                         <p className="tab-description">{tab.description}</p>
-                        {tab.features.length > 0 && ( 
+                        {tab.features.length > 0 && (
                           <List
                             dataSource={tab.features}
                             renderItem={(item) => (
@@ -133,7 +122,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <hr />
     </>
   );
 }
