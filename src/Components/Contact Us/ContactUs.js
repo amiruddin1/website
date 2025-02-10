@@ -3,7 +3,7 @@ import { Form, Input, Button, Row, Col, Typography, Card } from "antd";
 import "./ContactUs.css";
 
 import { useTranslation } from "react-i18next";
-const { Title, Text } = Typography;
+const { Title } = Typography;
 
 export default function ContactUs() {
 
@@ -42,7 +42,7 @@ export default function ContactUs() {
             <Row gutter={[32, 32]} className="contact-content">
                 <Col xs={24} md={10}>
                     <Card className="contact-info-card">
-                        <img src="/Media/Addresses.jpg" />
+                        <img src="/Media/Addresses.jpg" alt="Address"/>
                     </Card>
                     <Card className="map-card">
                         <Title className="map-title">
@@ -112,7 +112,7 @@ export default function ContactUs() {
                                     { required: true, message: "Please enter your message" },
                                 ]}
                             >
-                                <Input.TextArea rows={15} placeholder="Type your message" />
+                                <Input.TextArea rows={20} placeholder="Type your message" />
                             </Form.Item>
                             <Form.Item>
                                 <Button type="primary" htmlType="submit" className="send-button">

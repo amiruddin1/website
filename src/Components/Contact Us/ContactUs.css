@@ -98,7 +98,7 @@ body {
 
 /* Form */
 .form-title {
-  font-size: 3rem !important;
+  font-size: 5rem !important;
   margin-bottom: 5vh !important;
   color: #1e1e2f;
   margin-top: 2vh;
@@ -112,7 +112,7 @@ body {
   border-radius: 5px;
   font-weight: bold;
   border: none;
-  margin: 3px 0px;
+  margin: 20px 0px;
 }
 
 .send-button:hover {

@@ -34,7 +34,7 @@ export default function AboutUsPage() {
       title: t("AboutUsPage.qualities.innovativeMindset"),
       icon: "💡",
       image: "/Media/AboutPics/3Innovation.jpg",
-      points: [,
+      points: [
         t("AboutUsPage.qualities_translated.innovativeMindset.point1"),
         t("AboutUsPage.qualities_translated.innovativeMindset.point2")
       ],
@@ -43,7 +43,7 @@ export default function AboutUsPage() {
       title: t("AboutUsPage.qualities.continuousImprovement"),
       icon: "🔄",
       image: "./Media/AboutPics/4Improvement.jpg",
-      points: [,
+      points: [
         t("AboutUsPage.qualities_translated.continuousImprovement.point1"),
         t("AboutUsPage.qualities_translated.continuousImprovement.point2")
       ],
@@ -255,7 +255,6 @@ export default function AboutUsPage() {
             },
             {
               icon: "🤝",
-              title: "Customer-Centric Approach",
               title: t("AboutUsPage.whySection.point4.title"),
               points: [
                 t("AboutUsPage.whySection.point4.subpoint1"),
