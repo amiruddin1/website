@@ -8,34 +8,45 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  background: transparent !important;
+  color: #333;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(15px) saturate(150%);
+  -webkit-backdrop-filter: blur(15px) saturate(150%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .scrolled {
-  background: #f9f9f9;  
-  border-bottom: 1px solid #e8e8e8;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .menu-link {
-  margin: 0 10px;
-  font-size: 1.5rem;
-  font-weight: bold;
+  margin: 0 15px;
+  font-size: 1rem;
+  font-weight: 600;
   text-decoration: none;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: all 0.3s ease;
-  display: inline-block;
   text-align: center;
-  color: #000; 
+  color: #333;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.menu{
-  justify-content: center;
-  align-items: center;
+.scrolled .menu-link {
+  color: #333;
 }
 
+.menu-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #1890ff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 .icon_language {
   font-size: 2rem !important;
   font-weight: bold;
@@ -43,35 +54,29 @@
   text-align: center;
   margin-right: 15px;
   cursor: pointer;
+  color: #fff;
 }
 
-.scrolled .menu-link {
-  color: #333; 
-}
-
-.menu-link:hover {
-  background-color: #e6f7ff;
-  color: #1890ff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.scrolled .icon_language {
+  color: #333;
 }
 
 .menu-button {
   display: none;
   background: none;
   border: none;
-  color: #1890ff;
+  color: #fff;
   font-size: 20px;
   cursor: pointer;
 }
 
 .scrolled .menu-button {
-  color: #1890ff; 
+  color: #1890ff;
 }
 
 @media (max-width: 1050px) {
   .menu-link {
-    margin: 0 10px;
-    font-size: 0.7rem; 
+    font-size: 0.9rem;
   }
 }
 
@@ -92,4 +97,3 @@
     display: none;
   }
 }
-  
