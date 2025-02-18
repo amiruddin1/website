@@ -20,17 +20,17 @@ const { t } = useTranslation();
 
   return (
     <>
-      <div className="expertise-container_expertise">
+      <div className="main-container_expertise">
         <div className="header-section_expertise">
-          <Title level={2} className="main-title_expertise">
+          <Title level={2} className="main-title_expertise headingText">
          { t("HomePage.Expertise.title")}
           </Title>
 
-          <Text className="expertise-description_expertise">
+          <Text className="expertise-description_expertise paraText">
           { t("HomePage.Expertise.desc")}
           </Text>
           <div className="products-section_expertise">
-            <Title level={3} className="products-title_expertise">
+            <Title level={3} className="products-title_expertise subHeadingText">
             { t("HomePage.Expertise.prodTitle")}
             </Title>
             <Row gutter={[16, 16]} justify="center">
@@ -43,7 +43,7 @@ const { t } = useTranslation();
                         alt={item.title}
                         className="expertise-card-image_expertise"
                       />
-                      <Text className="expertise-card-title_expertise">{item.title}</Text>
+                      <Text className="expertise-card-title_expertise paraText">{item.title}</Text>
                     </Card>
                   </Link>
                 </Col>

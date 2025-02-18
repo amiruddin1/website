@@ -41,18 +41,14 @@ body {
 }
 
 .main-title_clients {
-    font-size: 4rem !important;
-    color: #333;
-    font-weight: 700;
     margin-bottom: 0.5rem;
   }
+
   .header-section_clients {
-    background-color: #ecebeb;
     padding: 1rem 2rem;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   }
-  .expertise-container_clients {
+  .main-container_clients {
     padding: 50px;
     background-color: #f9f9f9;
     text-align: center;
@@ -60,10 +56,11 @@ body {
 
   
 @media (max-width: 768px) {
-    .main-title_clients {
-      font-size: 2rem !important;
-    }
-    .expertise-container_clients {
-        padding: 20px;
+    .main-container_clients {
+        padding: 5px;
     }  
+    .header-section_clients {
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
   }

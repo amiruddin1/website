@@ -29,7 +29,7 @@
   .footer-title {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 5vh;
   }
   
   .footer-links {
@@ -41,6 +41,11 @@
   .footer-links li {
     margin-bottom: 10px;
     cursor: pointer;
+  }
+
+  .links-footer{
+    padding: 0;
+    color: #fff;
   }
   
   .footer-links li:hover {

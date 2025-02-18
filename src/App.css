@@ -94,6 +94,34 @@
   max-height: 50px; 
 }
 
+.headingText{
+  font-size: 4rem !important;
+  font-weight: 600;
+  color: #000;
+}
+
+.headingText::first-letter {
+  text-transform: uppercase;
+}
+
+.subHeadingText{
+  font-size: 2rem !important;
+  font-weight: 400;
+  color: #000;
+}
+.subHeadingText::first-letter {
+  text-transform: uppercase;
+}
+
+.paraText{
+  font-size: 1rem !important;
+  color: #000;
+  font-weight: 200;
+}
+.paraText::first-letter {
+  text-transform: uppercase;
+}
+
 @media (max-width: 768px) {
   .header {
     padding: 15px;
@@ -118,6 +146,18 @@
 
   .ensis-logo {
     margin-top: 15px; 
+  }
+
+  .headingText{
+    font-size: 2rem !important;
+  }
+  
+  .subHeadingText{
+    font-size: 1rem !important;
+  }
+
+  .paraText{
+    font-size: 0.7rem !important;
   }
 }
 

@@ -84,7 +84,7 @@ export default function Navbar() {
         {/* Language Icon - Always Visible */}
         <Dropdown overlay={languageMenu} trigger={["click"]}>
           <span className="icon_language mobile-visible">
-            <TranslateIcon className="translate-icon" />
+            <TranslateIcon className="translate-icon" /> Lang
           </span>
         </Dropdown>
 

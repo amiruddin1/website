@@ -17,9 +17,9 @@ const { t } = useTranslation();
     ];
     return (
         <>
-            <div className="expertise-container_clients">
+            <div className="main-container_clients">
                 <div className="header-section_clients">
-                    <Title level={2} className="main-title_clients">
+                    <Title level={2} className="main-title_clients headingText">
                         {t("HomePage.OurClients")}
                     </Title>
 

@@ -51,7 +51,6 @@
 .section-title {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 2rem !important;
 }
 
 .features-carousel .custom-card {
@@ -73,11 +72,8 @@
   margin: 0 auto 16px;
   width: 70%;
   height: auto;
-  /* Default fallback */
   max-height: 40vh;
-  /* Adjust based on desired uniform height */
   object-fit: cover;
-  /* Ensures the image fills the container while maintaining aspect ratio */
   border-radius: 8px;
 }
 
@@ -132,12 +128,6 @@
   text-align: center;
 }
 
-.section-title {
-  font-weight: bold;
-  margin-bottom: 40px;
-  color: #333;
-}
-
 .about-row {
   margin-top: 20px;
 }
@@ -160,34 +150,17 @@
   object-fit: cover;
 }
 
-.card-title {
-  font-size: 1.5rem;
-}
-
-.card-icon {
-  font-size: 1.5rem;
-}
-
 .card-content {
   padding: 20px;
   text-align: left;
 }
 
-.about-title {
-  color: #007bff;
-  margin-bottom: 10px;
-  font-size: 2rem;
-}
-
 .about-text {
   color: #555;
-  line-height: 1.6;
-  font-size: 1rem;
 }
 
 .owner-profile-section {
   padding: 50px 20px;
-  background: #fff;
   text-align: center;
 }
 
@@ -210,18 +183,12 @@
 }
 
 .owner-title {
-  color: #555;
-  font-size: 1.2rem;
   margin-bottom: 15px;
 }
 
 .owner-description {
   color: #666;
   line-height: 1.6;
-}
-
-.card-point {
-  font-size: 1.5rem;
 }
 
 .why-choose-us {
@@ -247,7 +214,6 @@
 }
 
 .card-point {
-  font-size: 1.1rem;
   margin: 5px 0;
   list-style: disc;
   line-height: 1.6;
@@ -269,7 +235,6 @@
 }
 
 @media (max-width: 768px) {
-
   .hero-title {
     font-size: 2rem !important;
     font-weight: bold;
@@ -286,44 +251,15 @@
     height: 60vh;
   }
 
-  .section-title {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 1rem !important;
-  }
-
   .card {
     width: 100%;
     margin: 0 auto;
     box-shadow: none;
   }
 
-  .card-title {
-    font-size: 0.8rem;
-  }
-
-  .card-icon {
-    font-size: 1rem;
-  }
-
-  .card-point {
-    font-size: 0.8rem !important;
-  }
-
   .about-title {
     color: #007bff;
     margin-bottom: 10px;
-    font-size: 1.5rem !important;
-  }
-
-  .about-text {
-    color: #555;
-    line-height: 1.6;
-    font-size: 0.8rem !important;
-  }
-
-  .card-point {
-    font-size: 1rem;
   }
 
   .custom-card {

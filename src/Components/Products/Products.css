@@ -81,7 +81,6 @@
 }
 
 .reasons-list li {
-    font-size: 1.5rem;
     color: #444;
     margin-top: 2vh;
     line-height: 1.8;
@@ -112,7 +111,6 @@
     }
 
     .reasons-list li {
-        font-size: 1rem;
         color: #444;
         line-height: 1.8;
         margin-top: 5vh;

@@ -1,29 +1,25 @@
 .about-us-container {
   padding: 40px;
   background-color: #ffffff;
-}
+} 
 
 .about-us-title {
-  font-size: 4rem !important;
-  font-weight: bold;
-  color: #000;
   margin-top: 0rem;
   margin-bottom: 20px;
 }
 
-.about-us-title::first-letter {
-  text-transform: uppercase;
+.about-us-service-title{
+  margin-top: 1.5em !important;
+  margin-bottom: 0 !important;
 }
 
-.about-us-text {
-  font-size: 1.5rem;
-  line-height: 1.8;
-  color: #555;
-  margin-bottom: 20px;
+.list-services{
+  padding: 0 !important;
 }
 
-.about-us-text::first-letter {
-  text-transform: uppercase;
+.about-us-secondHading{
+  margin-top: 1.5em !important;
+  margin-bottom: 0 !important;
 }
 
 .about-us-buttons{
@@ -52,6 +48,7 @@
   transition: all 0.3s;
   margin: 2px;
 }
+
 .read-more-button:hover {
   background-color: #f0f0f0;
 }
@@ -70,27 +67,17 @@
 }
 
 .about-us-image {
-  border: 1px solid #000;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  width: 100%; 
+  width: 80%; 
   max-width: 500px; 
   height: auto;
   object-fit: cover;
 }
 
-.main-title_about {
-  font-size: 32px;
-  color: #333;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
 .header-section_about {
-  background-color: #ecebeb; 
   padding: 1rem 2rem;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
 }
-.expertise-container_about {
+.main-container_about {
   padding: 50px;
   background-color: #f9f9f9;
   text-align: center;
@@ -100,27 +87,31 @@
   text-align: justify;
 }
 
-.about-us-list-services{
- text-align: center;
- margin-bottom: 5vh;
-}
-
 .list-icon{
   font-size: 2rem;  
   margin-right: 2px;
   margin-top: 2px;
 }
 
+.about-us-list .ant-list-item {
+  border-bottom: none !important; 
+  padding: 5px 0; 
+}
+
+
 @media (max-width: 768px) {
-  .about-us-title {
-    font-size: 2rem !important;
+  .main-container_about {
+    padding: 5px;
+  }   
+  .header-section_about {
+    padding: 10px 20px;
+    border-radius: 10px;
   }
-
-  .about-us-text {
-    font-size: 1rem !important;
+  .read-more-button {
+    min-width: 70vw;
   }
-
-  .expertise-container_about {
-    padding: 20px;
-  }  
+  
+  .download-button{
+    min-width: 70vw;
+  }
 }

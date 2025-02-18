@@ -138,25 +138,21 @@
         "para": "At HRVI Group Of Company, we bring unparalleled expertise in the HVAC industry, specializing in the manufacturing and export of high-performance air conditioning systems. Our team combines technical knowledge, innovative engineering, and years of experience to deliver solutions that exceed client expectations.",
         "ql": {
             "title": "Quick Links",
-            "point1": "Retail Interiors",
-            "point2": "Corporate Interiors",
-            "point3": "Restaurant Interior",
-            "point4": "Shop In Shops",
-            "point5": "Retail Display Merchandising",
-            "point6": "Retail Kiosk",
-            "point7": "Exhibition & Events",
-            "point8": "Interior Design Company"
+            "point1": "Our Products",
+            "point2": "About the Company",
+            "point3": "Reach Us",
+            "point4": "Gallery"
         },
         "more":"More Info.",
         "contact": {
             "title": "Contact",
             "phone_title": "Phone Number",
-            "number1": "+91-9654900525",
-            "number2": "+91-9876543210",
+            "number1": "+91-7988091852",
+            "number2": "+91-9106167628",
             "email_title": "Email Address",
-            "id": "info@designhouse.co.in",
+            "id": "contact@thehrvigroups.com",
             "locationTitle": "Location",
-            "location": "12/29, Site-II, Loni Road, Industrial Area, Mohan Nagar, Ghaziabad, Uttar Pradesh, Pin No. 201007, India"
+            "location": "Plot No 9 Patwari Colony, Near DAV School, Kushilpur Palwal, Haryana, India, 121102"
         }
     },
     "GalleryTitle":"Our Gallery",

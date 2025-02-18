@@ -1,28 +1,19 @@
-.expertise-container_expertise {
+.main-container_expertise {
   padding: 50px;
   background-color: #f9f9f9;
   text-align: center;
 }
 
 .header-section_expertise {
-  background-color: #ecebeb;
   padding: 1rem 2rem;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .main-title_expertise {
-  font-size: 4rem !important;
-  color: #333;
-  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-
 .expertise-description_expertise {
-  font-size: 16px;
-  line-height: 1.8;
-  color: #555;
   margin-bottom: 40px;
 }
 
@@ -31,32 +22,13 @@
 }
 
 .products-title_expertise {
-  font-size: 20px;
-  color: #333;
-  font-weight: 600;
   margin-bottom: 20px;
 }
 
 .expertise-card_expertise {
   border-radius: 10px;
+  text-align: center;
   min-height: 31vh;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.expertise-card_expertise:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
-
-.expertise-card_expertise {
-  border-radius: 10px;
-  text-align: center;
   font-size: 16px;
   font-weight: 500;
   color: #333;
@@ -64,6 +36,11 @@
   background-color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding: 16px;
+}
+
+.expertise-card_expertise:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .expertise-card-image_expertise {
@@ -74,42 +51,17 @@
   margin-bottom: 12px;
 }
 
-.expertise-card-title_expertise {
-  font-size: 16px;
-  color: #333;
-  font-weight: 600;
-}
-
 @media (max-width: 768px) {
   .expertise-card-image_expertise {
     height: 120px;
   }
 
-  .expertise-card-title_expertise {
-    font-size: 14px;
+  .header-section_expertise {
+    padding: 10px 20px;
+    border-radius: 10px;
   }
-}
-
-@media (max-width: 768px) {
-  .main-title_expertise {
-    font-size: 28px;
-  }
-
-  .expertise-card_expertise {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 768px) {
-  .main-title_expertise {
-    font-size: 2rem !important;
-  }
-
-  .about-us-text {
-    font-size: 1rem !important;
-  }
-
-  .expertise-container_expertise {
-    padding: 20px;
+  
+  .main-container_expertise {
+    padding: 5px;
   }
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Tabs, Row, Col, List, Typography } from "antd";
+import { Tabs, Row, Col, List, Typography, Button } from "antd";
+import {CaretLeftOutlined, CaretRightOutlined} from "@ant-design/icons";
 import "./OurServices.css";
 import { useTranslation } from "react-i18next";
 const { Title } = Typography;
@@ -77,17 +78,27 @@ export default function Services() {
       ],
     },
   ];
+  const changeTab = (direction) => {
+    const currentIndex = tabContent.findIndex(tab => tab.key === activeTab);
+    let newIndex = direction === "prev" ? currentIndex - 1 : currentIndex + 1;
 
+    if (newIndex < 0) newIndex = tabContent.length - 1; 
+    if (newIndex >= tabContent.length) newIndex = 0; 
+
+    setActiveTab(tabContent[newIndex].key);
+  };
   return (
     <>
-      <div className="expertise-container_services">
+      <div className="main_container_services">
         <div className="header-section_services">
-          <Title className="main-title_services">
+          <Title className="main-title_services headingText">
             {t("HomePage.Services.title")}
           </Title>
 
           <div className="tabs-section_services">
             <div className="tabbed-layout-container">
+                <Button className="tab-nav-btn" onClick={() => changeTab("prev")}><CaretLeftOutlined /> Previous</Button>
+                <Button className="tab-nav-btn" onClick={() => changeTab("next")}><CaretRightOutlined />Next </Button>
               <Tabs
                 activeKey={activeTab}
                 onChange={(key) => setActiveTab(key)}
@@ -102,12 +113,12 @@ export default function Services() {
                         </div>
                       </Col>
                       <Col xs={24} md={14}>
-                        <p className="tab-description">{tab.description}</p>
+                        <p className="tab-description paraText">{tab.description}</p>
                         {tab.features.length > 0 && (
                           <List
                             dataSource={tab.features}
                             renderItem={(item) => (
-                              <List.Item className="tab-feature-item">
+                              <List.Item className="tab-feature-item paraText">
                                 <span className="feature-icon">✔</span> {item}
                               </List.Item>
                             )}

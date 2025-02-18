@@ -40,9 +40,9 @@ export default function Feedback() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="expertise-container_feedback">
+      <div className="main-container_feedback">
         <div className="header-section_feedback">
-          <Title level={2} className="main-title_feedback">
+          <Title level={2} className="main-title_feedback headingText">
             {t("HomePage.FeedbackTitle")}
           </Title>
 

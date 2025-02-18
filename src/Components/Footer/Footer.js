@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Button } from 'antd';
+import { Link } from "react-router-dom";
 import './Footer.css';
 
 import { useTranslation } from "react-i18next";
@@ -20,18 +21,13 @@ export default function Footer() {
         <Col xs={24} md={8}>
           <h3 className="footer-title">{t("Footer.ql.title")}</h3>
           <ul className="footer-links">
-            <li>- {t("Footer.ql.point1")}</li>
-            <li>- {t("Footer.ql.point2")}</li>
-            <li>- {t("Footer.ql.point3")}</li>
-            <li>- {t("Footer.ql.point4")}</li>
-            <li>- {t("Footer.ql.point5")}</li>
-            <li>- {t("Footer.ql.point6")}</li>
-            <li>- {t("Footer.ql.point7")}</li>
-            <li>- {t("Footer.ql.point8")}</li>
+            <li>- <Link to="/products" className='links-footer'>{t("Footer.ql.point1")}</Link></li>
+            <li>- <Link to="/about" className='links-footer'>{t("Footer.ql.point2")}</Link></li>
+            <li>- <Link to="/contact" className='links-footer'>{t("Footer.ql.point3")}</Link></li>
+            <li>- <Link to="/media-gallery" className='links-footer'>{t("Footer.ql.point4")}</Link></li>
           </ul>
         </Col>
 
-        {/* Contact Section */}
         <Col xs={24} md={8}>
           <h3 className="footer-title">{t("Footer.contact.title")}</h3>
           <p className="footer-contact">

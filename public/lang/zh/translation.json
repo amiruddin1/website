@@ -138,25 +138,21 @@
         "para": "在 HRVI 集团公司，我们在 HVAC 行业拥有无与伦比的专业知识，专注于高性能空调系统的制造和出口。我们的团队结合了技术知识、创新工程和多年的经验，提供超出客户期望的解决方案。",
         "ql": {
             "title": "快速链接",
-            "point1": "零售室内设计",
-            "point2": "企业室内设计",
-            "point3": "餐厅室内设计",
-            "point4": "店中店",
-            "point5": "零售展示营销",
-            "point6": "零售亭",
-            "point7": "展览与活动",
-            "point8": "室内设计公司"
+            "point1": "我们的产品",
+            "point2": "关于公司",
+            "point3": "联系我们",
+            "point4": "画廊"
         },
         "more": "更多信息",
         "contact": {
             "title": "联系方式",
             "phone_title": "电话号码",
-            "number1": "+91-9654900525",
-            "number2": "+91-9876543210",
+            "number1": "+91-7988091852",
+            "number2": "+91-9106167628",
             "email_title": "电子邮件地址",
-            "id": "info@designhouse.co.in",
+            "id": "contact@thehrvigroups.com",
             "locationTitle": "位置",
-            "location": "印度，北方邦，Ghaziabad，Mohan Nagar，Loni 路工业区，Site-II，12/29 号，邮政编码 201007"
+            "location": "印度，哈里亚纳邦，Palwal，Kushilpur，DAV 学校附近，Patwari Colony 9 号地块，邮政编码 121102"
         }
     },
     "GalleryTitle": "我们的画廊",

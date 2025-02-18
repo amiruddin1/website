@@ -60,11 +60,11 @@ export default function Product() {
             <div className="why-choose">
                 <Title level={2} className="why-choose-title">{t("ProductPage.whyChooseTitle")}</Title>
                 <ul className="reasons-list">
-                    <li><strong>{t("ProductPage.point1")}:</strong>{t("ProductPage.detail1")}</li>
-                    <li><strong>{t("ProductPage.point2")}:</strong> {t("ProductPage.detail2")}</li>
-                    <li><strong>{t("ProductPage.point3")}:</strong> {t("ProductPage.detail3")}</li>
-                    <li><strong>{t("ProductPage.point4")}:</strong> {t("ProductPage.detail4")}</li>
-                    <li><strong>{t("ProductPage.point5")}:</strong> {t("ProductPage.detail5")}</li>
+                    <li className="paraText"><strong><u>{t("ProductPage.point1")}</u></strong>{t("ProductPage.detail1")}</li>
+                    <li className="paraText"><strong><u>{t("ProductPage.point2")}</u></strong> {t("ProductPage.detail2")}</li>
+                    <li className="paraText"><strong><u>{t("ProductPage.point3")}</u></strong> {t("ProductPage.detail3")}</li>
+                    <li className="paraText"><strong><u>{t("ProductPage.point4")}</u></strong> {t("ProductPage.detail4")}</li>
+                    <li className="paraText"><strong><u>{t("ProductPage.point5")}</u></strong> {t("ProductPage.detail5")}</li>
                 </ul>
             </div>
         </div>

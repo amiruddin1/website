@@ -34,7 +34,7 @@ export default function ContactUs() {
         </div>
         <div className="contact-container">
             <div className="contact-hero">
-                <Title className="contact-subtitle">
+                <Title className="contact-subtitle subHeadingText">
                     {t("ContactUsPage.desc")}
                 </Title>
             </div>
@@ -112,7 +112,7 @@ export default function ContactUs() {
                                     { required: true, message: "Please enter your message" },
                                 ]}
                             >
-                                <Input.TextArea rows={20} placeholder="Type your message" />
+                                <Input.TextArea rows={25} placeholder="Type your message" />
                             </Form.Item>
                             <Form.Item>
                                 <Button type="primary" htmlType="submit" className="send-button">

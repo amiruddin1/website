@@ -134,7 +134,7 @@ export default function AboutUsPage() {
                 className="custom-card"
                 title={
                   <div className="card-title-section">
-                    <span className="card-icon">{item.icon}</span> <span className="card-title">{item.title}</span>
+                    <span className="card-icon subHeadingText">{item.icon}</span> <span className="card-title subHeadingText">{item.title}</span>
                   </div>
                 }
               >
@@ -144,7 +144,7 @@ export default function AboutUsPage() {
                   className="card-image"
                 />
                 {item.points.map((point, i) => (
-                  <Text key={i} className="card-point">
+                  <Text key={i} className="card-point paraText">
                     {point} <br />
                   </Text>
                 ))}
@@ -166,8 +166,8 @@ export default function AboutUsPage() {
                 className="about-image"
               />
               <div className="card-content">
-                <Title className="about-title">{t("AboutUsPage.cards.ourStory.title")}</Title>
-                <Text className="about-text">{t("AboutUsPage.cards.ourStory.desc")}</Text>
+                <Title className="about-title subHeadingText">{t("AboutUsPage.cards.ourStory.title")}</Title>
+                <Text className="about-text paraText">{t("AboutUsPage.cards.ourStory.desc")}</Text>
               </div>
             </Card>
           </Col>
@@ -180,8 +180,8 @@ export default function AboutUsPage() {
                 className="about-image"
               />
               <div className="card-content">
-                <Title className="about-title">{t("AboutUsPage.cards.ourVision.title")}</Title>
-                <Text className="about-text">{t("AboutUsPage.cards.ourVision.desc")}</Text>
+                <Title className="about-title subHeadingText">{t("AboutUsPage.cards.ourVision.title")}</Title>
+                <Text className="about-text paraText">{t("AboutUsPage.cards.ourVision.desc")}</Text>
               </div>
             </Card>
           </Col>
@@ -194,30 +194,30 @@ export default function AboutUsPage() {
                 className="about-image"
               />
               <div className="card-content">
-                <Title className="about-title">{t("AboutUsPage.cards.ourMission.title")}</Title>
-                <Text className="about-text">{t("AboutUsPage.cards.ourMission.desc")}</Text>
+                <Title className="about-title subHeadingText">{t("AboutUsPage.cards.ourMission.title")}</Title>
+                <Text className="about-text paraText">{t("AboutUsPage.cards.ourMission.desc")}</Text>
               </div>
             </Card>
           </Col>
         </Row>
       </div>
       <div className="owner-profile-section">
-        <Title level={2} className="section-title">{t("AboutUsPage.Brand.title")}</Title>
+        <Title level={2} className="section-title headingText">{t("AboutUsPage.Brand.title")}</Title>
         <Row gutter={32} className="owner-row">
           <Col xs={24} sm={12} md={12}>
             <Card className="owner-card">
-              <Title level={3} className="owner-name">{t("AboutUsPage.Brand.owner1.name")}</Title>
-              <Text className="owner-title">{t("AboutUsPage.Brand.owner1.subName")}</Text>
-              <Paragraph className="owner-description">
+              <Title level={3} className="owner-name subHeadingText">{t("AboutUsPage.Brand.owner1.name")}</Title>
+              <Text className="owner-title paraText">{t("AboutUsPage.Brand.owner1.subName")}</Text>
+              <Paragraph className="owner-description paraText">
                 {t("AboutUsPage.Brand.owner1.desc")}
               </Paragraph>
             </Card>
           </Col>
           <Col xs={24} sm={12} md={12}>
             <Card className="owner-card">
-              <Title level={3} className="owner-name">{t("AboutUsPage.Brand.owner2.name")}</Title>
-              <Text className="owner-title">{t("AboutUsPage.Brand.owner2.subName")}</Text>
-              <Paragraph className="owner-description">
+              <Title level={3} className="owner-name subHeadingText">{t("AboutUsPage.Brand.owner2.name")}</Title>
+              <Text className="owner-title paraText">{t("AboutUsPage.Brand.owner2.subName")}</Text>
+              <Paragraph className="owner-description paraText">
                 {t("AboutUsPage.Brand.owner2.desc")}
               </Paragraph>
             </Card>
@@ -226,7 +226,7 @@ export default function AboutUsPage() {
       </div>
 
       <div className="why-choose-us">
-        <Title level={2} className="section-title">{t("AboutUsPage.whySection.title")}</Title>
+        <Title level={2} className="section-title headingText">{t("AboutUsPage.whySection.title")}</Title>
         <Row gutter={[32, 32]} className="why-row">
           {[
             {
@@ -273,12 +273,12 @@ export default function AboutUsPage() {
             <Col xs={24} sm={12} md={8} key={index} className="why-card-col">
               <Card className="custom-card-why-choose-section" hoverable>
                 <div className="card-title-section">
-                  <span className="card-icon">{item.icon}</span>
-                  <Title level={4} className="card-title">{item.title}</Title>
+                  <span className="card-icon subHeadingText">{item.icon}</span>
+                  <Title level={4} className="card-title subHeadingText">{item.title}</Title>
                 </div>
                 <ul className="why-list">
                   {item.points.map((point, i) => (
-                    <li key={i} className="card-point">{point}</li>
+                    <li key={i} className="card-point paraText">{point}</li>
                   ))}
                 </ul>
               </Card>
